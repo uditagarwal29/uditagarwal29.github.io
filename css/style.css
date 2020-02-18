@@ -1,0 +1,188 @@
+/******************ID_Selector******************/
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: refreshment_standregular;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #4ab19a;
+}
+
+p {
+  font-family: adobe-garamond-pro, serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+hr {
+  background-color: #ffffff;
+  border-color: #ededed;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.65rem;
+  width: 6%;
+  margin-top: 100px;
+}
+
+h2 {
+  margin: 80px auto auto auto;
+}
+
+/******************Class_Selector******************/
+.mainheading {
+  color: #4ab19a;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.375rem;
+  margin: 0 auto 0 auto;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 7.5rem;
+  margin-right: 0;
+}
+
+.cloud {
+  width: 20%;
+  height: 16%;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 10%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 15%;
+}
+
+.mountain {
+  height: 31.25rem;
+  width: 62.5rem;
+}
+
+.developerguy1 {
+  height: 13%;
+  width: 13%;
+}
+
+.hi {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.875rem;
+  color: #4ab19a;
+  margin: 20px auto auto auto;
+}
+
+.abouttext {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.headings {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8125rem;
+  color: #1e836c;
+}
+
+.subhead {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.4375rem;
+  color: #45b29a;
+}
+
+.webDicon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.drawing {
+  width: 30%;
+  float: right;
+}
+
+.middle-container {
+  background-color: #ffffff;
+  padding-top: 2.5rem;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1 {
+  margin-bottom: -10px;
+}
+
+.bottom-container {
+  background-color: #c5ded7;
+  margin-top: 50px;
+  margin-right: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-button {
+  margin-top: 50px;
+  border-radius: 50px;
+  color: #DFF9E8;
+  font-family: Sarabun;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #399883;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.contact-button:hover{
+  background: #3B8AEF;
+   border: solid #FFFFFF 0px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.copyright {
+  color: #49b29a;
+  font-size: 0.9375rem;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.bottom-name {
+  text-decoration: underline;
+}
+
+.contacttext {
+  width: 60%;
+  margin: auto;
+}
+
+.socialmediaicon {
+  height: 2%;
+  width: 2%;
+}
+
+.linkedin {
+  margin-right: 20px;
+}
+
+.insta {
+  margin-left: 20px;
+  margin-right: 20px;
+}
