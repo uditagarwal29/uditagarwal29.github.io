@@ -875,7 +875,11 @@ h3 {
     right: 25px;
     font-size: 12px;
   }
-
+  
+  .snapchat .contentBox h2{
+    top: 65%;
+    font-size: 25px;
+  }
   .letsStudy .contentBox{
     top: 72%;
   }
