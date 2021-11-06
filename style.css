@@ -425,21 +425,21 @@ h3 {
 
 @media screen and (max-width: 400px) {
   .intro-text h1 {
-    font-size: 120px;
+    font-size: 132px;
     margin-bottom: -20px;
   }
   .intro-text p {
     padding-top: 50px;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: -10px;
   }
 
   .intro-text h3 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .intro-text a {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .wrapper ul li a {
