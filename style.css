@@ -715,9 +715,10 @@ h3 {
   .skillsSection {
     min-height: 170vh;
   }
+
   #diagram {
     margin-top: -260px;
-    left:60px;
+    margin-right: -30px;
   }
 }
 
@@ -733,10 +734,17 @@ h3 {
   }
 
   #diagram {
-    transform: scale(0.65);
-    left: 90px;
+    transform: scale(0.6);
+    margin-right: -90px; 
   }
 }
+
+/* @media screen and (max-width: 430px) {
+  #diagram {
+    transform: scale(0.65);
+    left: 100px; 
+  }
+} */
 
 /* -------------WORK--------------- */
 .workSection {
