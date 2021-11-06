@@ -425,7 +425,7 @@ h3 {
 
 @media screen and (max-width: 400px) {
   .intro-text h1 {
-    font-size: 132px;
+    font-size: 150px;
     margin-bottom: -20px;
   }
   .intro-text p {
