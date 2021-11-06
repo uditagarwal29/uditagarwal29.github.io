@@ -876,12 +876,12 @@ h3 {
     font-size: 12px;
   }
 
-  .upcoming .contentBox {
-    top: 70%;
+  .letsStudy .contentBox{
+    top: 72%;
   }
 
-  .letsStudy .contentBox{
-    top: 80%;
+  .upcoming .contentBox {
+    top: 70%;
   }
 }
 
