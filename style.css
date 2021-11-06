@@ -425,7 +425,7 @@ h3 {
 
 @media screen and (max-width: 400px) {
   .intro-text h1 {
-    font-size: 140px;
+    font-size: 132px;
     margin-bottom: -20px;
   }
   .intro-text p {
@@ -475,7 +475,6 @@ h3 {
 }
 
 .img-container {
-  
   width: 340px;
   height: 340px;
   display: flex;
@@ -735,7 +734,7 @@ h3 {
 
   #diagram {
     transform: scale(0.6);
-    margin-right: -90px; 
+    margin-right: -90px;
   }
 }
 
@@ -784,7 +783,7 @@ h3 {
 .projectCard {
   width: 500px;
   height: 400px;
-  margin: 90px 0;
+  margin: 80px 0;
   transform-style: preserve-3d;
 }
 
@@ -839,6 +838,51 @@ h3 {
 
 .upcoming .contentBox {
   padding-top: 40px;
+}
+
+@media screen and (max-width: 720px){
+  .projectCard {
+    /* padding-left: 100%;  */
+    margin-left: 15%;
+  }
+  
+}
+
+@media screen and (max-width: 600px){
+  .projectCard {
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 530px){
+  .projectCard {
+    margin-left: 2%;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  .projectCard {
+    width: 400px;
+    height: 300px;
+    margin-top: 140px;
+    padding-left: 0px; 
+    margin-left: 0%;
+  }
+
+  .contentBox {
+    top: 60%;
+    left: 25px;
+    right: 25px;
+    font-size: 12px;
+  }
+
+  .upcoming .contentBox {
+    top: 70%;
+  }
+
+  .letsStudy .contentBox{
+    top: 72%
+  }
 }
 
 .work-contact-divider {
