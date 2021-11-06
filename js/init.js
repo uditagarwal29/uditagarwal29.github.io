@@ -16,7 +16,7 @@ var o = {
     var title = r
       .text(300, 300, defaultText)
       .attr({
-        font: "20px Arial",
+        font: "22px Arial",
         fill: "#fff",
       })
       .toFront();
