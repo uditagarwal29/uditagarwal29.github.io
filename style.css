@@ -717,19 +717,19 @@ h3 {
   }
   #diagram {
     margin-top: -260px;
-    left: 70px;
+    /* margin-right: -30px; */
   }
 }
 
 @media screen and (max-width: 400px) {
   .skillsSection {
-    min-height: 170vh;
+    min-height: 150vh;
   }
 
   .skillcontainer {
     transform: scale(0.9);
-    margin-left: 0;
-    /* margin-top: 50px; */
+    margin-left: -50px;
+    margin-top: 80px;
   }
 
   #diagram {
