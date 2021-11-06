@@ -724,7 +724,7 @@ h3 {
 
 @media screen and (max-width: 430px) {
   .skillsSection {
-    min-height: 150vh;
+    min-height: 125vh;
   }
 
   .skillcontainer {
