@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Udit!</title>
+      <!-- CSS only -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css" />
+      <script
+         src="https://kit.fontawesome.com/c18142505b.js"
+         crossorigin="anonymous"
+         ></script>
+      <!-- <script src="js/jquery.js" ></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="js/raphael.js" ></script>
+      <script src="js/init.js" ></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <div class="hero-container" id ="home">
+         <div class="intro-text">
+            <p class="tophead translateY" data-speed="-0.2">Hello, I'm</p>
+            <h1 class="hero-name" >UDIT</h1>
+            <h3 class="translateX" data-speed="-0.2">A <span class="typewriteText" data-wait="1500" data-words='["Web Developer", "Programmer", "Video Editor"]'></span></h3>
+            <div class="connectbtn translateY" data-speed="0.2">
+               <a href="#contact">Connect With Me</a>
+            </div>
+         </div>
+         <div class="images">
+            <div class="shapeContainer">
+               <img src="images/shape.png" class="shape translateY" data-speed="-0.2">
+            </div>
+            <div class="mypicContainer">
+               <img src="images/mypic.png" class="mypic translateY" data-speed="0.2">
+            </div>
+         </div>
+         <!------- Curve Section Divider----- -->
+         <div class="custom-shape-divider-bottom-1635011895">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+               <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+               <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+               <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+         </div>
+         <nav>
+            <!----- hamburger menu ------>
+            <input type="checkbox"  id="active" >
+            <label for="active" class="menu-btn" ><i class ="fas fa-bars" ></i></label>
+            <div class="wrapper" >
+               <ul class="menu">
+                  <li><a class="home" href="/index.html">Home</a></li>
+                  <li><a class="about" href="#about">About Me</a></li>
+                  <li><a class="skills" href="#skills">Skills</a></li>
+                  <li><a class="work" href="#work">My Work</a></li>
+                  <li><a class="contact"  href="#contact">Contact Me</a></li>
+               </ul>
+            </div>
+            <!----- social media icons ----->
+            <div class="socialtop" >
+               <a id="social" href="https://github.com/uditagarwal29" target="_blank"><i class="fab fa-github"></i></a>
+               <a id="social" href="https://www.linkedin.com/in/udit-agarwal-6a500618b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+               <a id="social" href="https://www.quora.com/profile/Udit-Agarwal-43" target="_blank"><i class="fab fa-quora"></i></i></a>
+               <a id="social" href="https://twitter.com/_udit_29" target="_blank"><i class="fab fa-twitter"></i></a>
+               <a id="social" href="https://www.instagram.com/udit.29/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+         </nav>
+      </div>
+      <!-------------- ABOUT ------------------>
+      <section class="aboutSection" id="about">
+         <!-- <div class="cartoon">
+            <img src="images/shoulders.png" alt="" class="shoulder">
+            <img src="images/face.svg" alt="" class="face">
+            </div> -->
+         <div class="about-container">
+            <div class="img-container" data-center-center="opacity:1" data-0-bottom="opacity:0">
+               <div class="img-circle">
+                  <img src="images/me.jpeg" alt="" class="me">
+               </div>
+            </div>
+            <div class="about-text">
+               <h1 class="abt-header" data-center-center="opacity:1;left:0;" data-100-bottom="opacity:0;left:200px;" >Who's this guy ?</h1>
+               <p class="abt-para" data-150-center="opacity:1;right:0;" data-500-bottom="opacity:0;right:100px;">Hi, I am Udit. I am a Programmer, Front-end Web developer and a Video editor. Currently in my Third Year, I am pursuing Computer 
+                  Science and Engineering from Maharaja Agrasen Insitute of Technology, Delhi. <br>
+                  <br> I’ve always been someone who has a logical and a creative side and web development helped me express these sides.
+                  My websites are primarily coded using HTML5, CSS3 and JavaScript. Currently I am learning Back-end technologies to achieve 
+                  my goal of becoming a Full Stack Web Developer. 
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-------------- SKILLS ------------------>
+      <section class="skillsSection" id="skills">
+         <img src="images/about-skill-divider.svg" alt="" class="about-skill-divider">
+         <img src="images/skill-work-divider.svg" alt="" class="skill-work-divider">
+         <div class="skillcontainer">
+            <h1 class="skillheader" data-0-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">Technologies I work with</h1>
+            <div class="skill-list">
+               <!-- C++ -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-cuttlefish cplusplus"><span class="plus">++</span></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>C++</strong>
+                  </div>
+               </div>
+               <!-- Python -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-python"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>Python</strong>
+                  </div>
+               </div>
+               <!-- HTML5 -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>Hyper Text Markup Language</strong>
+                  </div>
+               </div>
+               <!-- CSS3 -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>Cascading Style Sheet</strong>
+                  </div>
+               </div>
+               <!-- JavaScript -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-js-square"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>JavaScript</strong>
+                  </div>
+               </div>
+               <!-- React -->
+               <div class="skillbox"  data-350-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-react"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>React</strong>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="graphContainer">
+            <div id="diagram" data-200-center="opacity:1;left:0;" data-300-bottom="opacity:0;left:100px;"></div>
+            <div class="get">
+               <div class="arc">
+                  <span class="text">C++</span>
+                  <input type="hidden" class="percent" value="90" />
+                  <input type="hidden" class="color" value="#97BE0D" />
+               </div>
+               <div class="arc">
+                  <span class="text">Python</span>
+                  <input type="hidden" class="percent" value="80" />
+                  <input type="hidden" class="color" value="#D84F5F" />
+               </div>
+               <div class="arc">
+                  <span class="text">HTML5</span>
+                  <input type="hidden" class="percent" value="90" />
+                  <input type="hidden" class="color" value="#88B8E6" />
+               </div>
+               <div class="arc">
+                  <span class="text">CSS</span>
+                  <input type="hidden" class="percent" value="80" />
+                  <input type="hidden" class="color" value="#BEDBE9" />
+               </div>
+               <div class="arc">
+                  <span class="text">JavaScript</span>
+                  <input type="hidden" class="percent" value="65" />
+                  <input type="hidden" class="color" value="#EDEBEE" />
+               </div>
+               <div class="arc">
+                  <span class="text">React</span>
+                  <input type="hidden" class="percent" value="25" />
+                  <input type="hidden" class="color" value="#bee3db" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-------------- WORK/PROJECTS ------------------>
+      <section class="workSection " id="work" >
+         <div class="workContainer">
+            <h1 data-0-center="opacity:1;bottom:0;" data-0-bottom="opacity:0;bottom:150px;">Projects</h1>
+            <div class="projectBox owl-carousel owl-theme">
+               <div class="item projectCard" >
+                  <div class="imgBox" >
+                     <img src="images/python.jpg" alt="" >
+                  </div>
+                  <div class="contentBox" ">
+                     <h2>Snapchat Filter using Python</h2>
+                     <p>Made a Face overlay using face detection using OpenCV in python</p>
+                  </div>
+               </div>
+               <div class="item projectCard">
+                  <div class="imgBox">
+                     <img src="images/studyTimer.png" alt="">
+                  </div>
+                  <div class="contentBox">
+                     <h2>Study Timer</h2>
+                     <p>Made with Javscript. A stopwatch to time you, also plays music when timer is started</p>
+                  </div>
+               </div>
+               <div class="item projectCard upcoming">
+                  <div class="imgBox">
+                     <img src="images/upcoming.png" alt="">
+                  </div>
+                  <div class="contentBox">
+                     <h2>Upcoming Project</h2>
+                     <p>Under Development</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img src="images/work-contact-divider.svg" alt="" class="work-contact-divider">
+      </section>
+      <!-------------- CONTACT  ------------------>
+      <section class="contactSection" id="contact">
+         <h1 class="section-header">Send me a Message!</h1>
+         <div class="contact-wrapper">
+            <div class="formContainer">
+               <form id="contact-form" class="form-horizontal" role="form">
+                  <div class="contactRow">
+                     <div class="col">
+                        <div class="inputBox">
+                           <input type="text" id="name"  name="name" value="" required="required"> 
+                           <span class="text">Name</span>
+                           <span class="line"></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contactRow">
+                     <div class="col">
+                        <div class="inputBox">
+                           <input type="email" id="email"  name="email" value="" required="required">
+                           <span class="text">Email</span>
+                           <span class="line"></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contactRow">
+                     <div class="col">
+                        <div class="inputBox textarea">
+                           <textarea id="message" value="" name="message" required="required"></textarea>
+                           <span class="text">Your Message</span>
+                           <span class="line"></span>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <div class="button-wrapper">
+                  <button form="contact-form" class="sendButton" id="submit" href="mailto:uditagarwal1999@gmail.com" type="submit" value="SEND" >Send message</button>
+               </div>
+            </div>
+            <div class="direct-contact-container">
+               <ul class="contact-list">
+                  <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">New Delhi, India</span></i></li>
+                  <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+919457661493</a></span></i></li>
+                  <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:uditagarwal1999@gmail.com" title="Send me an email">agarwal.udit1999@gmail.com</a></span></i></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   </body>
+   <script src="js/skrollr.js"></script>
+   <script type="text/javascript">
+      var s = skrollr.init();
+   </script>
+   <script src="js/vanilla-tilt.min.js"></script>
+   <script>
+      VanillaTilt.init(document.querySelectorAll(".projectCard"), {
+        max: 25,
+        speed: 400
+      });
+   </script>
+   <script src="js/app.js"></script>
+</html>
