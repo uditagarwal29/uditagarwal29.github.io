@@ -228,11 +228,11 @@
       </section>
       <!-------------- CONTACT  ------------------>
       <section class="contactSection" id="contact">
-         <h1 class="section-header">Send me a Message!</h1>
-         <div class="contact-wrapper">
-            <div class="formContainer">
-               <form id="contact-form" class="form-horizontal" role="form">
-                  <div class="contactRow">
+         <h1 class="section-header" data-0-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:100px;">Send me a Message!</h1>
+         <div class="contact-wrapper" >
+            <div class="formContainer"   >
+               <form id="contact-form" class="form-horizontal" role="form" method="post" action="mail.php">
+                  <div class="contactRow" data-170-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
                      <div class="col">
                         <div class="inputBox">
                            <input type="text" id="name"  name="name" value="" required="required"> 
@@ -241,7 +241,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="contactRow">
+                  <div class="contactRow" data-170-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
                      <div class="col">
                         <div class="inputBox">
                            <input type="email" id="email"  name="email" value="" required="required">
@@ -250,25 +250,26 @@
                         </div>
                      </div>
                   </div>
-                  <div class="contactRow">
+                  <div class="contactRow" data-170-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
                      <div class="col">
                         <div class="inputBox textarea">
-                           <textarea id="message" value="" name="message" required="required"></textarea>
+                           <textarea id="message" type="text" value="" name="message" required="required"></textarea>
                            <span class="text">Your Message</span>
                            <span class="line"></span>
                         </div>
                      </div>
                   </div>
+                  <button type="submit">submit</button>
                </form>
-               <div class="button-wrapper">
+               <div class="button-wrapper" data-315-center="opacity:1" data-bottom-bottom="opacity:0">
                   <button form="contact-form" class="sendButton" id="submit" href="mailto:uditagarwal1999@gmail.com" type="submit" value="SEND" >Send message</button>
                </div>
             </div>
             <div class="direct-contact-container">
                <ul class="contact-list">
-                  <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">New Delhi, India</span></i></li>
-                  <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+919457661493</a></span></i></li>
-                  <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:uditagarwal1999@gmail.com" title="Send me an email">agarwal.udit1999@gmail.com</a></span></i></li>
+                  <li class="list-item" data-275-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:100px;"><i class="fa fa-map-marker fa-2x"><span class="contact-text place"  >New Delhi, India</span></i></li>
+                  <li class="list-item" data-275-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:100px;"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+919457661493</a></span></i></li>
+                  <li class="list-item" data-275-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:100px;"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:uditagarwal1999@gmail.com" title="Send me an email">agarwal.udit1999@gmail.com</a></span></i></li>
                </ul>
             </div>
          </div>
