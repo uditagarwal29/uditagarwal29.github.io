@@ -1,4 +1,3 @@
-
 // TYPEWRITER ANIMATION IN HERO DIV
 
 class TypeWriter {
@@ -177,7 +176,7 @@ var sendButton = function () {
 
 sendButton();
 
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
+document.querySelector("#submitbtn").addEventListener("submit", (e) => {
   e.preventDefault();
   e.target.elements.name.value = "";
   e.target.elements.email.value = "";
