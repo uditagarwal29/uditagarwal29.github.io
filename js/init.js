@@ -46,11 +46,11 @@ var o = {
           value = t.find(".percent").val(),
           text = t.find(".text").text();
 
-        rad += 30;
-        var z = r.path().attr({ arc: [value, color, rad], "stroke-width": 26 });
+        rad += 23;
+        var z = r.path().attr({ arc: [value, color, rad], "stroke-width": 20 });
 
         z.mouseover(function () {
-          this.animate({ "stroke-width": 50, opacity: 0.75 }, 1000, "elastic");
+          this.animate({ "stroke-width": 30, opacity: 0.75 }, 1000, "elastic");
           if (Raphael.type != "VML")
             //solves IE problem
             this.toFront();
@@ -63,7 +63,7 @@ var o = {
           });
         }).mouseout(function () {
           this.stop().animate(
-            { "stroke-width": 26, opacity: 1 },
+            { "stroke-width": 20, opacity: 1 },
             speed * 4,
             "elastic"
           );
