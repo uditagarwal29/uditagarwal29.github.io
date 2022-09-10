@@ -13,6 +13,7 @@
          crossorigin="anonymous"
          ></script>
       <!-- <script src="js/jquery.js" ></script> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="js/raphael.js" ></script>
       <script src="js/init.js" ></script>
@@ -82,10 +83,10 @@
             </div>
             <div class="about-text">
                <h1 class="abt-header" data-center-center="opacity:1;left:0;" data-100-bottom="opacity:0;left:200px;" >Who's this guy ?</h1>
-               <p class="abt-para" data-150-center="opacity:1;right:0;" data-500-bottom="opacity:0;right:100px;">Hi, I am Udit. I am a Programmer, Front-end Web developer and a Video editor. Currently in my Third Year, I am pursuing Computer 
+               <p class="abt-para" data-150-center="opacity:1;right:0;" data-500-bottom="opacity:0;right:100px;">Hi, I am Udit. I am a C++ Programmer, Backend developer and a video editor. Currently I am in the final year of my graduation. I am pursuing Computer 
                   Science and Engineering from Maharaja Agrasen Insitute of Technology, Delhi. <br>
                   <br> I’ve always been someone who has a logical and a creative side and web development helped me express these sides.
-                  My websites are primarily coded using HTML5, CSS3 and JavaScript. Currently I am learning Back-end technologies to achieve 
+                  My websites are primarily coded using HTML5, CSS3, JavaScript, Node.js, Express.js. Currently I am learning Frontend technologies to achieve 
                   my goal of becoming a Full Stack Web Developer. 
                </p>
             </div>
@@ -143,6 +144,24 @@
                      <strong>JavaScript</strong>
                   </div>
                </div>
+               <!-- Node.js -->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fab fa-node"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>Node.js and Express.js</strong>
+                  </div>
+               </div>
+               <!-- MySQL-->
+               <div class="skillbox" data-300-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
+                  <div class="s-box-icon">
+                     <i class="fa-solid fa-database"></i>
+                  </div>
+                  <div class="s-box-text">
+                     <strong>MySQL</strong>
+                  </div>
+               </div>
                <!-- React -->
                <div class="skillbox"  data-350-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:100px;">
                   <div class="s-box-icon">
@@ -180,11 +199,21 @@
                <div class="arc">
                   <span class="text">JavaScript</span>
                   <input type="hidden" class="percent" value="65" />
-                  <input type="hidden" class="color" value="#EDEBEE" />
+                  <input type="hidden" class="color" value="#B3DEC1" />
+               </div>
+               <div class="arc">
+                  <span class="text">Node.js</span>
+                  <input type="hidden" class="percent" value="70" />
+                  <input type="hidden" class="color" value="#C2A878" />
+               </div>
+               <div class="arc">
+                  <span class="text">MySQL</span>
+                  <input type="hidden" class="percent" value="70" />
+                  <input type="hidden" class="color" value="#6f858f" />
                </div>
                <div class="arc">
                   <span class="text">React</span>
-                  <input type="hidden" class="percent" value="25" />
+                  <input type="hidden" class="percent" value="35" />
                   <input type="hidden" class="color" value="#bee3db" />
                </div>
             </div>
@@ -195,13 +224,32 @@
          <div class="workContainer">
             <h1 data-0-center="opacity:1;bottom:0;" data-0-bottom="opacity:0;bottom:150px;">Projects</h1>
             <div class="projectBox owl-carousel owl-theme">
+               <div class="item projectCard Socialite">
+                  <div class="imgBox">
+                     <img src="images/Socialite.jpg" alt="">
+                  </div>
+                  <div class="contentBox">
+                     <h2><a class="proj-link" href="https://github.com/uditagarwal29/Socialite">Socialite</a></h2>
+                     <p>Social Media Webiste build with Node.js, Express.js, MongoDB and Ejs with chat room feature and more</p>
+                  </div>
+               </div>
+               <div class="item projectCard TheBohemianParadise">
+                  <div class="imgBox">
+                     <img src="images/TBP.jpg" alt="">
+                  </div>
+                  <div class="contentBox">
+                     <h2><a class="proj-link" href="https://the-bohemian-paradise.herokuapp.com/">The Bohemian Paradise</a></h2>
+                     <p>Ecommerce Webiste build with MERN stack. Currently, Under Development</p>
+                  </div>
+               </div>
                <div class="item projectCard snapchat" >
                   <div class="imgBox" >
                      <img src="images/python.jpg" alt="" >
                   </div>
                   <div class="contentBox" ">
-                     <h2>Snapchat Filter using Python</h2>
+                     <h2><a class="proj-link" href="https://github.com/uditagarwal29/Basic-Face-Filter">Snapchat Filter using Python</a></h2>
                      <p>Made a Face overlay using face detection using OpenCV in python</p>
+                     
                   </div>
                </div>
                <div class="item projectCard letsStudy">
@@ -209,19 +257,11 @@
                      <img src="images/studyTimer.png" alt="">
                   </div>
                   <div class="contentBox">
-                     <h2>Study Timer</h2>
+                     <h2><a class="proj-link" href="https://github.com/uditagarwal29/Study-Timer-with-Music">Study Timer</a></h2>
                      <p>Made with Javscript. A stopwatch to time you, also plays music when timer is started</p>
                   </div>
                </div>
-               <div class="item projectCard upcoming">
-                  <div class="imgBox">
-                     <img src="images/upcoming.png" alt="">
-                  </div>
-                  <div class="contentBox">
-                     <h2>Upcoming Project</h2>
-                     <p>Under Development</p>
-                  </div>
-               </div>
+               
             </div>
          </div>
          <img src="images/work-contact-divider.svg" alt="" class="work-contact-divider">
