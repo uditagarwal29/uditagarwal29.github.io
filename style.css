@@ -672,6 +672,7 @@ h3 {
 .graphContainer {
   min-width: 0px;
   position: relative;
+  overflow: hidden;
 }
 
 .get {
