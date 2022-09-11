@@ -280,7 +280,7 @@ h3 {
 /* ------- Curve Section Divider------- */
 .custom-shape-divider-bottom-1635011895 {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 100%;
   overflow: hidden;
